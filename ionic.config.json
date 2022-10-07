@@ -1,0 +1,7 @@
+{
+  "name": "codeScanner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
