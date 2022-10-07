@@ -1,0 +1,74 @@
+/*Custom Ion Modal*/
+ion-modal.ion-modal-fullscreen{
+    --min-width: 95% !important;
+    --min-height: 90% !important;
+}
+
+.ion-modal-menu-content{
+    min-height: 35em;
+    padding: 0.1em; 
+}
+
+/* @media only screen and (max-width: 767px){
+    .ion-modal-menu-content{
+        --min-height: 65 em;
+        --padding: 0.1em;
+    }
+} */
+
+/** Alert Controller Custom Style **/
+.alertController .alert-wrapper{
+    min-width: 30% !important;
+}
+
+.popoverFormController .popover-content{
+    min-width: 32% !important;
+}
+
+/*Select-Option Alert custom width*/
+.selectOptionAlert .alert-wrapper{ 
+    min-width: 26% !important;
+}
+
+.card-icon{
+    width: 200px;
+    height: 200px;
+    color: rgba(27, 172, 204, 0.9);
+}
+
+.card-icon-container {
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .card-icon-container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  .card-icon-container p {
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #8c8c8c;
+    
+    margin: 0;
+  }
+  
+  .card-icon-container a {
+    text-decoration: none;
+  }
+
+
+.icon-md{
+    transform: scale(1.75);
+}
+
+.icon-md.close{
+    color: rgba(222, 0, 0, 0.8);
+    
+}
+  

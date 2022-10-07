@@ -11,6 +11,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/home',
     name: 'Home',
     component: HomePage
+  },
+
+  {
+    path: "/scanners/qrcode-scanner",
+    component: ()=>import('@/views/scanners/qrcode_scanner/QRCodeScanner.vue')
+  },
+
+  { 
+    path: '/:pathMatch(.*)*', 
+    component: () => import('@/views/ResourceNotFound.vue') 
   }
 ]
 
